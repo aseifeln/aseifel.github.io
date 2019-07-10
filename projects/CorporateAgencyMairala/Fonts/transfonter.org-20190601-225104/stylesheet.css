@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'Oleo Script';
+    src: url('OleoScript-Regular.woff2') format('woff2'),
+        url('OleoScript-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
