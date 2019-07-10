@@ -1,0 +1,764 @@
+@font-face{
+    font-family: 'MyriadPro-bold';
+    src:url("../Fonts/MyriadPro-Bold.woff"),
+        url("../Fonts/MyriadPro-Bold.woff2");
+}
+
+@font-face{
+    font-family: 'MyriadPro';
+    src:url("../Fonts/MyriadPro-Regular.woff"),
+        url("../Fonts/MyriadPro-Regular.woff2");
+}
+
+@font-face{
+    font-family: 'Al-jazeera-bold';
+    src:url("../Fonts/Al-Jazeera-Arabic-Bold.woff"),
+        url("../Fonts/Al-Jazeera-Arabic-Bold.woff2");
+}
+
+@font-face{
+    font-family: 'adobe-arabic';
+    src:url("../Fonts/AdobeArabic-Regular.woff2"),
+        url("../Fonts/AdobeArabic-Regular.woff");
+}
+
+@font-face{
+    font-family: 'al-jazeera';
+    src:url("../Fonts/Al-Jazeera-Arabic-Regular.woff"),
+        url("../Fonts/Al-Jazeera-Arabic-Regular.woff2");
+}
+
+body{
+    padding:0;
+    margin:0;
+}
+
+
+/* Main header area */
+
+header .top-header{
+    width: 100%;
+    height: 45px;
+    background-color: #6e564a;
+}
+
+header .top-header .content{
+    width:1000px;
+    height:45px;
+    margin-left: auto;
+    margin-right:auto;
+}
+
+header .top-header .content .login{
+    font-size:15pt;
+    color:#fff;
+    text-decoration: none;
+    float:left;
+    margin-top:10px;
+}
+
+header .top-header .content .login:hover{
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+header .top-header .content a span{
+    font-weight: bold;
+}
+
+
+header .top-header .content a{
+    float:right;
+    margin-top:5px;
+}
+
+
+header .top-header .content a .facebook{
+    width: 38px;
+    height:38px;
+    background-image: url("../images/facebook-icons_03.png");
+}
+
+header .top-header .content a .facebook:hover{
+    background-image:url("../images/facebook-icon-hover_06.png");
+}
+
+header .top-header .content a .youtube{
+    width:38px;
+    height:38px;
+    background-image: url("../images/youtube-icons_05.png");
+}
+
+header .top-header .content a .youtube:hover{
+    background-image: url("../images/youtube-icon-hover_07.png");
+}
+
+header .top-header .content a .twitter{
+    width:38px;
+    height:38px;
+    background-image: url("../images/twitter-icons_08.png");
+}
+
+header .top-header .content a .twitter:hover{
+    background-image: url("../images/twitter-icon-hover_03.png");
+}
+
+header .top-header .content a .google{
+    width:38px;
+    height:38px;
+    background-image: url("../images/google-icons_10.png");
+}
+
+header .top-header .content a .google:hover{
+    background-image: url("../images/google-icon-hover_05.png");
+}
+
+
+/* Search & Logo Area */
+
+header .search-area{
+    width: 100%;
+    height: 105px;
+    background-image:url("../images/background-pattern_03.gif");
+}
+
+header .search-area .container{
+    width:1000px;
+    height:105px;
+    margin-left: auto;
+    margin-right:auto;
+}
+
+header .search-area .search-movie{
+    float:left;
+    margin-top:30px;
+}
+
+header .search-area .search-movie .search-bar{
+    width:325px;
+    height:35px;
+    margin-left:-60px;
+    direction: rtl;
+    text-indent: 20px;
+}
+
+header .search-area  [placeholder]{
+    text-align:right;
+    font-size: 12pt;
+}
+
+header .search-area .search-movie .search-button{
+    width:62px;
+    height:40px;
+    float:left;
+    position: relative;
+    left:0;
+    top:1px;
+    cursor:pointer;
+
+}
+
+header .search-area .logo{
+    float:right;
+    margin-top:5px;
+}
+
+/* Main Nav Bar */
+
+header .main-nav{
+    width:100%;
+    height:60px;
+    background-color:#10afab;
+}
+
+header .main-nav .container{
+    width:1000px;
+    height:60px;
+    margin-left: auto;
+    margin-right:auto;
+}
+
+
+
+.main-nav ul{
+    list-style:none;
+    margin:0px;
+    width:80px;
+    height:60px;
+    margin-left:30px;
+    float:right;
+}
+
+
+.main-nav .dropdown{
+    list-style-image: url("../images/drop-down-arrow_03.png");
+}
+
+
+
+.main-nav ul li{
+    margin-top:15px;
+    padding:0;
+    cursor: pointer;
+}
+
+
+.main-nav ul li a{
+    font-family: 'adobe-arabic';
+    color:#fff;
+    font-size:18.75pt;
+    font-weight: lighter;
+    cursor:pointer;
+    text-decoration: none;
+}
+
+.main-nav ul li ul{
+    visibility: hidden;
+   
+}
+
+.main-nav ul li:hover ul{
+    visibility: visible;
+}
+
+.main-nav ul li ul li{
+    width: 170px;
+    height:50px;
+    margin:0;
+    position:relative;
+    left:-30px;
+    top:20px;
+    background-color:#10afab;
+    text-align: center;
+    border: solid 1px #fff;
+    cursor:pointer;
+}
+
+
+
+
+.main-nav ul li ul li:hover{
+    background-color:#fff;
+}
+
+.main-nav ul li ul li:hover a{
+    color:#10afab;
+}
+
+
+/* Showcase Section */
+
+.showcase{
+    height:405px;
+    width:100%;
+    background-image:url("../images/showcase_03.gif");
+}
+
+.showcase .container{
+    width:1000px;
+    height:220px;
+    padding-top:165px;
+    margin-left: auto;
+    margin-right:auto;
+}
+
+.showcase h1{
+    margin:0;
+    color:white;
+    font-size:22.5pt;
+    font-weight:lighter;
+    font-family: 'MyriadPro-bold';
+}
+
+.showcase .hd{
+    background-color:#fff;
+    font-family: 'MyriadPro-bold';
+    font-size: 15pt;
+    font-weight: lighter;
+    text-align: center;
+    width:70px;
+    height:20px;
+    border-radius:5px;
+    float:left;
+    margin-right: 15px;
+}
+
+.showcase .imdb{
+    color:#fff;
+    font-family: 'MyriadPro';
+    font-size: 15pt;
+    font-weight: lighter;
+    text-transform: uppercase;
+    float: left;
+    margin-right: 15px;
+}
+
+.showcase .genre{
+    color:#fff;
+    font-family: 'Tahoma';
+    font-size: 15pt;
+    font-weight: lighter;
+    float:left;
+}
+
+.showcase .paragraph{
+    font-family: 'MyriadPro';
+    font-size: 15pt;
+    font-weight: lighter;
+    line-height: 1.5em;
+    color:#fff;
+    clear:both;
+}
+
+.showcase .ellipse{
+    width:15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color:#82b1b0;
+    display:inline-block;
+}
+
+.showcase .ellipse:hover{
+    background-color:#10afab;
+    cursor:pointer;
+}
+
+/* Top-rated Movies Section */
+
+.top-rated{
+    width:100%;
+    height:1005px;
+    background-image:url("../images/background-pattern_03.gif");
+}
+
+.top-rated .container{
+    width:1000px;
+    height:1005px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.top-rated h1{
+    font-family: 'Al-jazeera-bold';
+    font-size: 25pt;
+    font-weight: lighter;
+    margin:0;
+    margin-top:45px;
+    float:right;
+}
+
+.top-rated .sub-heading{
+    background-color:#f05423;
+    width:290px;
+    height:40px;
+    float:right;
+    margin-top:50px;
+    margin-right: 20px;
+    margin-bottom:35px;
+}
+
+.top-rated .sub-heading p{
+    color:#fff;
+    font-family: 'Al-jazeera-bold';
+    font-size: 18.75pt;
+    font-weight:lighter;
+    float:right;
+    margin:0;
+    margin-right:10px;  
+}
+
+.top-rated .sub-heading img{
+    float: right;
+    margin-top:10px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.top-rated .grid{
+
+    padding-top:130px;
+    /*
+    display:grid;
+    clear:both;
+    grid-template-columns: repeat(6, 1fr);
+    grid-auto-columns:135px;
+    grid-auto-rows: 255px;
+    grid-gap: 2em;
+
+    */
+}
+
+
+.top-rated .grid .film{
+
+    background-color:#10afab;
+    width:140px;
+    height:255px;
+    margin-right:25px;
+    margin-bottom: 20px;
+    float:left;
+    position:relative;
+}
+
+.top-rated .grid .film img{
+    width:140px;
+}
+.top-rated .grid .film .film-name{
+    display:block;
+    text-decoration:none;
+    font-family: 'MyriadPro-bold';
+    font-size: 11pt;
+    font-weight: lighter;
+    color:#fff;
+    text-align: center;
+    line-height: 1.5em;
+    margin-top: 10px;
+}
+
+.top-rated .grid .film .film-name:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.top-rated .grid .film .rating{
+    width:50px;
+    height:25px;
+    background-color:#f05423;
+    position:absolute;
+    top:20px;
+    left:90px;
+}
+
+.top-rated .grid .film .rating img{
+    width: 17px;
+    height:17px;
+    position:relative;
+    bottom: 20px;
+}
+
+.top-rated .grid .film .rating p{
+    color:#fff;
+    font-family: 'MyriadPro-bold';
+    font-size:11.5pt;
+    font-weight: lighter;
+    text-align: center;
+    padding-left: 15px;
+    padding-top: 5px;
+    margin:0;
+}
+
+.top-rated .grid .film .rating p:hover{
+    text-decoration: none;
+    cursor: auto;
+}
+
+
+/* Newest Movies Section */
+
+.newest-movies{
+    width:100%;
+    height: 1325px;
+    background-color:#ffffff;
+}
+
+.newest-movies .container{
+    width:1000px;
+    height:1325px;
+    margin-right:auto;
+    margin-left: auto;
+}
+
+.newest-movies h1{
+    font-family: 'Al-jazeera-bold';
+    font-size: 25pt;
+    font-weight: lighter;
+    margin:0;
+    margin-top:45px;
+    float:right;
+}
+
+.newest-movies .sub-heading{
+    background-color:#f05423;
+    width:270px;
+    height:40px;
+    float:right;
+    margin-top:50px;
+    margin-right: 20px;
+    margin-bottom:35px;
+}
+
+.newest-movies .sub-heading p{
+    color:#fff;
+    font-family: 'Al-jazeera-bold';
+    font-size: 18.75pt;
+    font-weight:lighter;
+    float:right;
+    margin:0;
+    margin-right:10px;  
+}
+
+.newest-movies .sub-heading img{
+    float: right;
+    margin-top:10px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.newest-movies .grid{
+    padding-top:130px;
+    /*
+    display:grid;
+    clear:both;
+    grid-template-columns: repeat(6, 1fr);
+    grid-auto-columns:135px;
+    grid-auto-rows: 255px;
+    grid-gap: 2em;
+    */
+}
+
+.newest-movies .grid .film{
+    width:140px;
+    height:255px;
+    margin-right:25px;
+    margin-bottom: 20px;
+    float:left;
+    background-color:#10afab;
+    position:relative;
+}
+
+.newest-movies .grid .film img{
+    width:140px;
+}
+
+.newest-movies .grid .film .film-name{
+    display:block;
+    text-decoration: none;
+    font-family: 'MyriadPro-bold';
+    font-size: 11pt;
+    font-weight: lighter;
+    color:#fff;
+    text-align: center;
+    line-height: 1.5em;
+    margin-top: 10px;
+}
+
+.newest-movies .grid .film .conjuring{
+    font-size:10pt;
+}
+
+.newest-movies .grid .film .film-name:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.newest-movies .grid .film .rating{
+    width:50px;
+    height:25px;
+    background-color:#f05423;
+    position:absolute;
+    top:20px;
+    left:90px;
+}
+
+.newest-movies .grid .film .rating img{
+    width: 17px;
+    height:17px;
+    position:relative;
+    bottom: 20px;
+}
+
+.newest-movies .grid .film .rating p{
+    color:#fff;
+    font-family: 'MyriadPro-bold';
+    font-size:11.5pt;
+    font-weight: lighter;
+    text-align: center;
+    padding-left: 15px;
+    margin:0;
+    padding-top:5px;
+}
+
+.newest-movies .grid .film .rating p:hover{
+    text-decoration: none;
+    cursor: auto;
+}
+
+/* Welcome To Our Website Section */
+
+.welcome{
+    width:100;
+    height:445px;
+    background-image:url("../images/background-pattern_03.gif");
+}
+
+.welcome .container{
+    width:1000px;
+    height: 445px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.welcome h1{
+    font-family: 'Al-jazeera-bold';
+    font-size: 25pt;
+    font-weight: lighter;
+    color:#f05423;
+    float:right;
+    margin:0;
+    margin-top: 35px;
+    margin-bottom:20px;
+}
+
+.welcome p{
+    font-family: 'Al-jazeera-bold';
+    font-size: 15pt;
+    font-weight: lighter;
+    float:right;
+    text-align: right;
+    margin:0;
+    margin-bottom:20px;
+    line-height: 1.5em;
+}
+
+
+/*  ---------Footer----------*/
+
+.footer{
+    width:100%;
+    height:525px;
+    background-color:#6e564a;
+}
+
+.footer .container{
+    width:1000px;
+    height:525px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.footer .wrapper{
+    display:grid;
+    grid-template-columns: repeat(5,auto);
+    grid-template-rows: repeat(3, auto);
+    grid-column-gap: 8em;
+    grid-row-gap: 2em;
+    justify-content: left;
+    grid-template-areas: 
+        "ul1 ul2 ul3 ul4 ul5"
+        "ul6 ul7 ul7 subs subs"
+        "copyr copyr copyr copyr copyr";
+}
+
+.footer ul{
+    list-style-type: none;
+    margin:0;
+    padding:0;
+    margin-top:35px;
+    text-align: right;
+}
+
+.footer .ul1{
+    grid-area: ul1;
+}
+
+.footer .ul2{
+    grid-area: ul2;
+}
+.footer .ul3{
+    grid-area: ul3;
+}
+.footer .ul4{
+    grid-area: ul4;
+}
+.footer .ul5{
+    grid-area: ul5;
+}
+.footer .ul6{
+    grid-area: ul6;
+    margin-top:30px;
+    text-align: center;
+}
+.footer .ul7{
+    text-align: center;
+    justify-self: right;
+    justify-items: right;
+    grid-area: ul7;
+    margin-top:30px;
+}
+
+.footer ul a{
+    text-decoration: none;
+    color:#fff;
+    font-family: 'al-jazeera';
+    font-size: 18.75;
+    font-weight: lighter;
+}
+
+.footer ul a:hover{
+    text-decoration: underline;
+}
+
+.footer .subscribe{
+    grid-area: subs;
+    justify-self: right;
+    justify-items: right;
+}
+
+.footer .subscribe p{
+    font-family: 'al-jazeera';
+    font-size: 18.75;
+    font-weight:lighter;
+    text-align:center;
+    color:#fff;
+}
+
+.footer .subscribe .btn-email{
+    width:245px;
+    height:40px;
+    border-radius: 10px;
+    border:none;
+    background-color:#f05423;
+    margin-bottom:10px;
+    direction:rtl;
+    text-indent: 20px;
+}
+
+.footer .subscribe .btn-email::placeholder{
+    color:#fff;
+    font-family: 'al-jazeera';
+    font-size: 18.75;
+    font-weight:lighter;
+    text-align: right;
+}
+
+.footer .subscribe .btn-subscribe{
+    width: 80px;
+    height:45px;
+    border:none;
+    border-radius:10px;
+    background-color:#10afab;
+    cursor:pointer;
+    float:right;
+}
+
+.footer .subscribe [value]{
+    color:#fff;
+    font-family: 'al-jazeera';
+    font-size: 18.75;
+    font-weight:lighter;
+    text-align:center;
+}
+
+.footer .copyright{
+    grid-area: copyr;
+    margin:0;
+    color:#fff;
+    font-family: 'al-jazeera';
+    font-size: 18.75;
+    font-weight: lighter;
+    text-align:center;
+}
+
+
+
